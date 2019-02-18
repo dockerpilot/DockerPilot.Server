@@ -1,0 +1,3 @@
+rootProject.name = 'DockerPilot.Server'
+enableFeaturePreview('IMPROVED_POM_SUPPORT')
+

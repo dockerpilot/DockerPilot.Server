@@ -1,0 +1,1 @@
+C:\DockerPilot\DockerPilot.Server\build\classes\java\main\docker\pilot\server\Application.class;C:\DockerPilot\DockerPilot.Server\build\classes\java\main\docker\pilot\server\MainController.class
