@@ -20,6 +20,10 @@ version '1.0'
 
 sourceCompatibility = 1.8
 
+sourceSets {
+    main.kotlin.srcDirs += 'src/main/kotlin'
+}
+
 bootJar {
     baseName = 'docker-server'
     version =  '1.0'
