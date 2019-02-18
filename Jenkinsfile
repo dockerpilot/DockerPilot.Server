@@ -1,12 +1,16 @@
 pipeline {
-    agent {
-        docker { image 'gradle' }
+  agent {
+    docker {
+      image 'gradle'
     }
-    stages {
-        stage('Test') {
-            steps {
-                sh 'gradle --version'
-            }
-        }
+
+  }
+  stages {
+    stage('Test') {
+      steps {
+        sh 'gradle --version'
+        sh 'ls'
+      }
     }
+  }
 }
